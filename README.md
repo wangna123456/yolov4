@@ -132,9 +132,64 @@ Configure中选择V2019，x64
 
 2.项目 ->属性 注意同样应选release和x64，同时检查注意检查Windows SDK版本和平台工具集
 
-![image](https://github.com/wangna123456/yolov4/assets/142497906/42ad8687-7269-46ce-89c0-b3d8dda297bb)
+![image](https://github.com/wangna123456/yolov4/assets/142497906/c7cd26e0-e0d6-4a6a-a176-4115df748a35)
+
 
 3.修改包含目录和库目录
 
-添加opencv3.4的包含目录和库目录（按照自己的opencv3.4的路径
+添加opencv3.4的包含目录和库目录（按照自己的opencv3.4的路径）
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/198a38c3-275b-419d-ba8d-7c6dd6dbc02c)
+
+
+库目录
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/08d806c5-2386-42d0-8633-56f68547651a)
+
+
+4.附加依赖项
+
+添加附加依赖项（按照自己的opencv3.4的路径）F:\YOLOV4\opencv\build\x64\vc16\lib
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/c6d60615-8928-4cc2-bb10-6c1700dec861)
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/c611238f-600b-47ba-b768-e7eb761de2dc)
+
+2.3 修改darknet.vcxproj
+
+F:\YOLOV4\darknet-master\build\darknet下，右键，Notepad++打开
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/5d1d1332-6e81-4d55-aedd-fc45a9690a99)
+
+ctrl+f搜索 CUDA 全部改成 11.1 （因为我们的CUDA版本是11.1）有2处需要修改
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/dbb66970-abce-424a-a4f4-881fb1c9f013)
+
+2.4 下载YOLOv4预训练权重文件
+
+下载后拷贝到F:\YOLOV4\darknet-master\build\darknet\x64
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/71679585-aba9-4714-89d4-45e36cb31c2b)
+
+3 目标检测
+
+将生成的darknet.exe复制到F:\YOLOV4\darknet-master\build\darknet\x64目录下
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/68baec31-5aee-441b-a3aa-941ac981a228)
+
+以上已经完成了所有环境的配置，可以使用yolov4.weights实现目标检测了，方法如下：
+
+待检测的图片或视频放在F:\YOLOV4\darknet-master\build\darknet\x64\data目录下
+
+
+在F:\YOLOV4\darknet-master\build\darknet\x64\ 目录下CMD执行命令.\darknet.exe detector test cfg\coco.data cfg\yolov4.cfg yolov4.weights data\dog.jpg 可以检测图片上的物体
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/621e9229-857b-42e7-a7cc-7b02756accb1)
+
+执行命令.\darknet.exe detector demo cfg\coco.data cfg\yolov4.cfg yolov4.weights data\001.mp4可以检测视频上的物体。
+
+![image](https://github.com/wangna123456/yolov4/assets/142497906/cd34baf5-fc3f-4d35-b8d4-54956558aefa)
+
+
+
 
