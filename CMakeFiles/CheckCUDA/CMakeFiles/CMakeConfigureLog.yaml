@@ -1,0 +1,286 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/8/17 21:54:30。
+      节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      AddCudaCompileDeps:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmpff44814248684955aac440f44f491885.cmd"
+        "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu   -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu   -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=F:\\YOLOV4\\CUDA\\CUDA Development\\bin
+        #$ _THERE_=F:\\YOLOV4\\CUDA\\CUDA Development\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/libdevice
+        #$ PATH=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/bin;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../lib;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;F:\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;F:\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\tools;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\libnvvp;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;E:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;D:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;D:\\altera\\13.0sp1\\quartus\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\MATLAB\\R2018b\\bin;F:\\hadoop-2.9.2\\bin;E:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;E:\\hacker\\apache-tomcat-10.0.14\\bin\\bin;D:\\Front\\mysql5\\bin;E:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2020.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\include;F:\\YOLOV4\\CUDA\\CUDA Development\\lib;F:\\YOLOV4\\CUDA\\CUDA Development\\libnvvp;F:\\YOLOV4\\opencv\\build\\x64\\vc16\\bin;C:\\Program Files\\dotnet\\;C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps;E:\\Users\\hp\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;E:\\黑客\\thc-hydra-windows-master;D:\\Program Files\\Bandizip\\;D:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.4\\bin;;D:\\Program Files\\JetBrains\\PyCharm 2020.3.5\\bin;;F:\\test\\ch01\\venv\\Scripts;C:\\Users\\hp\\.dotnet\\tools;
+        #$ INCLUDES="-IF:\\YOLOV4\\CUDA\\CUDA Development\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "F:\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-9.res" > "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-9.res
+        #$ cicc --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "F:\\Windows Kits\\10"  -arch compute_52 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00003204_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-11.res" > "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-11.res
+        #$ cudafe++ --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "F:\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/hp/AppData/Local/Temp/tmpxft_00003204_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-12.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00003204_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_00003204_00000000-12.res
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+      Link:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj
+          正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp
+        CompilerIdCUDA.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.61
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/3.27.1/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IF:\\YOLOV4\\CUDA\\CUDA Development\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3a090.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:33。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3a090.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\”。
+          正在创建目录“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        AddCudaCompileDeps:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu 
+        项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(1:2) (CudaBuildCore 个目标)。
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7a3dac8d7b014fcdba66a921510e5b3c.cmd"
+          "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_3a090.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_3a090.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(CudaBuildCore 个目标)的操作。
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\cmTC_3a090.exe" /INCREMENTAL /ILK:"cmTC_3a090.dir\\Debug\\cmTC_3a090.ilk" /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.lib" /MACHINE:X64  -v cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+            正在创建库 F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.lib 和对象 F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.exp
+          cmTC_3a090.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\cmTC_3a090.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\cmTC_3a090.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标) (1) ->
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(CudaBuildCore 目标) (1:2) ->
+        (CudaBuildCore 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+        
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]
+        
+            4 个警告
+            0 个错误
+        
+        已用时间 00:00:02.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei']
+        ignore line: []
+        ignore line: [Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3a090.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n]
+        ignore line: [用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642]
+        ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        ignore line: []
+        ignore line: [生成启动时间为 2023/8/17 21:54:33。]
+        ignore line: [节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标)。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在创建目录“cmTC_3a090.dir\\Debug\\”。]
+        ignore line: [  正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\”。]
+        ignore line: [  正在创建目录“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\”。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  正在创建“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu ]
+        ignore line: [项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmp7a3dac8d7b014fcdba66a921510e5b3c.cmd"]
+        ignore line: [  "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_3a090.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Ob0 -Zi -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_3a090.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(CudaBuildCore 个目标)的操作。]
+        ignore line: [Link:]
+        ignore line: [  F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\cmTC_3a090.exe" /INCREMENTAL /ILK:"cmTC_3a090.dir\\Debug\\cmTC_3a090.ilk" /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.lib" /MACHINE:X64  -v cmTC_3a090.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [    正在创建库 F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.lib 和对象 F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeScratch/TryCompile-q7hcei/Debug/cmTC_3a090.exp]
+        ignore line: [  cmTC_3a090.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\Debug\\cmTC_3a090.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  正在删除文件“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\unsuccessfulbuild”。]
+        ignore line: [  正在对“cmTC_3a090.dir\\Debug\\cmTC_3a090.tlog\\cmTC_3a090.lastbuildstate”执行 Touch 任务。]
+        ignore line: [已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标)的操作。]
+        ignore line: []
+        ignore line: [已成功生成。]
+        ignore line: []
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标) (1) ->]
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(CudaBuildCore 目标) (1:2) ->]
+        ignore line: [(CudaBuildCore 目标) -> ]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj”(默认目标) (1) ->]
+        ignore line: [(Link 目标) -> ]
+        ignore line: [  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CheckCUDA\\CMakeFiles\\CMakeScratch\\TryCompile-q7hcei\\cmTC_3a090.vcxproj]]
+        ignore line: []
+        ignore line: [    4 个警告]
+        ignore line: [    0 个错误]
+        ignore line: []
+        ignore line: [已用时间 00:00:02.50]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

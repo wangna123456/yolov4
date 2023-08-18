@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B109E61-2A76-35DE-917A-E047B1A3353E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.1.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\YOLOV4\darknet-master\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/YOLOV4/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\YOLOV4\cmake-3.27.1-windows-x86_64\bin\cmake.exe -SF:/YOLOV4/darknet-master -BF:/YOLOV4/darknet-master --check-stamp-file F:/YOLOV4/darknet-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLanguage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCUDACompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeSystem.cmake;F:\YOLOV4\darknet-master\DarknetConfig.cmake.in;F:\YOLOV4\darknet-master\cmake\Modules\FindCUDNN.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindPThreads4W.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindStb.cmake;F:\YOLOV4\darknet-master\src\version.h.in;F:\YOLOV4\opencv\build\OpenCVConfig-version.cmake;F:\YOLOV4\opencv\build\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\YOLOV4\darknet-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/YOLOV4/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\YOLOV4\cmake-3.27.1-windows-x86_64\bin\cmake.exe -SF:/YOLOV4/darknet-master -BF:/YOLOV4/darknet-master --check-stamp-file F:/YOLOV4/darknet-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLanguage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCUDACompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeSystem.cmake;F:\YOLOV4\darknet-master\DarknetConfig.cmake.in;F:\YOLOV4\darknet-master\cmake\Modules\FindCUDNN.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindPThreads4W.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindStb.cmake;F:\YOLOV4\darknet-master\src\version.h.in;F:\YOLOV4\opencv\build\OpenCVConfig-version.cmake;F:\YOLOV4\opencv\build\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\YOLOV4\darknet-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/YOLOV4/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\YOLOV4\cmake-3.27.1-windows-x86_64\bin\cmake.exe -SF:/YOLOV4/darknet-master -BF:/YOLOV4/darknet-master --check-stamp-file F:/YOLOV4/darknet-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLanguage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCUDACompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeSystem.cmake;F:\YOLOV4\darknet-master\DarknetConfig.cmake.in;F:\YOLOV4\darknet-master\cmake\Modules\FindCUDNN.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindPThreads4W.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindStb.cmake;F:\YOLOV4\darknet-master\src\version.h.in;F:\YOLOV4\opencv\build\OpenCVConfig-version.cmake;F:\YOLOV4\opencv\build\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\YOLOV4\darknet-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/YOLOV4/darknet-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\YOLOV4\cmake-3.27.1-windows-x86_64\bin\cmake.exe -SF:/YOLOV4/darknet-master -BF:/YOLOV4/darknet-master --check-stamp-file F:/YOLOV4/darknet-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCUDAInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeDependentOption.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeRCInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckIncludeFile.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLanguage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\CheckLibraryExists.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Compiler\NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindOpenMP.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindPackageMessage.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\FindThreads.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\Windows.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;F:\YOLOV4\cmake-3.27.1-windows-x86_64\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCUDACompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;F:\YOLOV4\darknet-master\CMakeFiles\3.27.1\CMakeSystem.cmake;F:\YOLOV4\darknet-master\DarknetConfig.cmake.in;F:\YOLOV4\darknet-master\cmake\Modules\FindCUDNN.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindPThreads4W.cmake;F:\YOLOV4\darknet-master\cmake\Modules\FindStb.cmake;F:\YOLOV4\darknet-master\src\version.h.in;F:\YOLOV4\opencv\build\OpenCVConfig-version.cmake;F:\YOLOV4\opencv\build\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\YOLOV4\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\YOLOV4\darknet-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\YOLOV4\darknet-master\ZERO_CHECK.vcxproj">
+      <Project>{335B78D6-C2C1-3656-BEDA-60E21BC22DC3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\YOLOV4\darknet-master\dark.vcxproj">
+      <Project>{A2B203D1-E3A0-3CF8-81ED-8A36A54CFEF0}</Project>
+      <Name>dark</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\YOLOV4\darknet-master\darknet.vcxproj">
+      <Project>{D1DF4211-F66E-3FE8-9683-304B52E0DDBE}</Project>
+      <Name>darknet</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\YOLOV4\darknet-master\uselib.vcxproj">
+      <Project>{8CAE37EB-88D4-35CE-B072-2258B7A67B9C}</Project>
+      <Name>uselib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.1.targets" />
+  </ImportGroup>
+</Project>

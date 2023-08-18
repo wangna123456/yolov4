@@ -1,0 +1,10 @@
+^F:\YOLOV4\DARKNET-MASTER\CMAKELISTS.TXT
+setlocal
+F:\YOLOV4\cmake-3.27.1-windows-x86_64\bin\cmake.exe -SF:/YOLOV4/darknet-master -BF:/YOLOV4/darknet-master --check-stamp-file F:/YOLOV4/darknet-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

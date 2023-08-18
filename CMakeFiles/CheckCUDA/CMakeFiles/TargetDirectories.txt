@@ -1,0 +1,2 @@
+F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/ALL_BUILD.dir
+F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,926 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:109 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:109 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/8/17 21:54:24。
+      节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.97
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:109 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/8/17 21:54:26。
+      节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.74
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:109 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-1y6a2j"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-1y6a2j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-1y6a2j'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_cceb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:27。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-1y6a2j\\cmTC_cceb0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cceb0.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-1y6a2j\\Debug\\”。
+          正在创建目录“cmTC_cceb0.dir\\Debug\\cmTC_cceb0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cceb0.dir\\Debug\\cmTC_cceb0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cceb0.dir\\Debug\\\\" /Fd"cmTC_cceb0.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cceb0.dir\\Debug\\\\" /Fd"cmTC_cceb0.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-1y6a2j\\Debug\\cmTC_cceb0.exe" /INCREMENTAL /ILK:"cmTC_cceb0.dir\\Debug\\cmTC_cceb0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-1y6a2j/Debug/cmTC_cceb0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-1y6a2j/Debug/cmTC_cceb0.lib" /MACHINE:X64  /machine:x64 cmTC_cceb0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_cceb0.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-1y6a2j\\Debug\\cmTC_cceb0.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_cceb0.dir\\Debug\\cmTC_cceb0.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cceb0.dir\\Debug\\cmTC_cceb0.tlog\\cmTC_cceb0.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-1y6a2j\\cmTC_cceb0.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:109 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-slpbdh"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-slpbdh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-slpbdh'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_cb608.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:28。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-slpbdh\\cmTC_cb608.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cb608.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-slpbdh\\Debug\\”。
+          正在创建目录“cmTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb608.dir\\Debug\\\\" /Fd"cmTC_cb608.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cb608.dir\\Debug\\\\" /Fd"cmTC_cb608.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-slpbdh\\Debug\\cmTC_cb608.exe" /INCREMENTAL /ILK:"cmTC_cb608.dir\\Debug\\cmTC_cb608.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-slpbdh/Debug/cmTC_cb608.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-slpbdh/Debug/cmTC_cb608.lib" /MACHINE:X64  /machine:x64 cmTC_cb608.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cb608.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-slpbdh\\Debug\\cmTC_cb608.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cb608.dir\\Debug\\cmTC_cb608.tlog\\cmTC_cb608.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-slpbdh\\cmTC_cb608.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CheckLanguage.cmake:93 (message)"
+      - "CMakeLists.txt:152 (check_language)"
+    checks:
+      - "Looking for a CUDA compiler"
+    message: |
+      Looking for a CUDA compiler passed with the following output:
+      -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+      -- The CUDA compiler identification is NVIDIA 11.1.74
+      -- Detecting CUDA compiler ABI info
+      -- Detecting CUDA compiler ABI info - done
+      -- Check for working CUDA compiler: F:/YOLOV4/CUDA/CUDA Development/bin/nvcc.exe - skipped
+      -- Detecting CUDA compile features
+      -- Detecting CUDA compile features - done
+      -- Configuring done (7.4s)
+      -- Generating done (0.0s)
+      -- Build files have been written to: F:/YOLOV4/darknet-master/CMakeFiles/CheckCUDA
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:158 (enable_language)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: F:/YOLOV4/CUDA/CUDA Development/bin/nvcc.exe 
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/8/17 21:54:37。
+      节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      AddCudaCompileDeps:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmpa35afdd7abec405491bf16eecae2d471.cmd"
+        "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu   -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu   -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=F:\\YOLOV4\\CUDA\\CUDA Development\\bin
+        #$ _THERE_=F:\\YOLOV4\\CUDA\\CUDA Development\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/libdevice
+        #$ PATH=F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/bin;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../lib;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64;F:\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;F:\\Windows Kits\\10\\bin\\10.0.19041.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\tools;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\libnvvp;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;E:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\;D:\\Program Files\\Java\\jdk1.8.0_181\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\iCLS\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Microsoft SQL Server\\90\\Tools\\binn\\;D:\\altera\\13.0sp1\\quartus\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\MATLAB\\R2018b\\bin;F:\\hadoop-2.9.2\\bin;E:\\Program Files (x86)\\National Instruments\\Shared\\LabVIEW CLI;E:\\hacker\\apache-tomcat-10.0.14\\bin\\bin;D:\\Front\\mysql5\\bin;E:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2020.2.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;F:\\YOLOV4\\CUDA\\CUDA Development\\bin;F:\\YOLOV4\\CUDA\\CUDA Development\\include;F:\\YOLOV4\\CUDA\\CUDA Development\\lib;F:\\YOLOV4\\CUDA\\CUDA Development\\libnvvp;F:\\YOLOV4\\opencv\\build\\x64\\vc16\\bin;C:\\Program Files\\dotnet\\;C:\\Users\\hp\\AppData\\Local\\Microsoft\\WindowsApps;E:\\Users\\hp\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;E:\\黑客\\thc-hydra-windows-master;D:\\Program Files\\Bandizip\\;D:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.4\\bin;;D:\\Program Files\\JetBrains\\PyCharm 2020.3.5\\bin;;F:\\test\\ch01\\venv\\Scripts;C:\\Users\\hp\\.dotnet\\tools;
+        #$ INCLUDES="-IF:\\YOLOV4\\CUDA\\CUDA Development\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "F:\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-9.res" > "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-9.res
+        #$ cicc --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "F:\\Windows Kits\\10"  -arch compute_52 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_000042a8_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "F:\\YOLOV4\\CUDA\\CUDA Development\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-11.res" > "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-11.res
+        #$ cudafe++ --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --orig_src_file_name "F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "F:\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/hp/AppData/Local/Temp/tmpxft_000042a8_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-12.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_000042a8_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\hp\\AppData\\Local\\Temp/tmpxft_000042a8_00000000-12.res
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+      Link:
+        F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj
+          正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp
+        CompilerIdCUDA.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\3.27.1\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.66
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        F:/YOLOV4/darknet-master/CMakeFiles/3.27.1/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:579 (message)"
+      - "CMakeLists.txt:158 (enable_language)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'INCLUDES=' string: ["-IF:\\YOLOV4\\CUDA\\CUDA Development\\bin/../include"  ]
+      
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:158 (enable_language)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\" /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\" -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_536c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:40。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_536c8.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\”。
+          正在创建目录“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        AddCudaCompileDeps:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu 
+        项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(1:2) (CudaBuildCore 个目标)。
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmp5365e51738a54989914a1094551ff7f4.cmd"
+          "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_536c8.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52,code=[compute_52,sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_536c8.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(CudaBuildCore 个目标)的操作。
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\cmTC_536c8.exe" /INCREMENTAL /ILK:"cmTC_536c8.dir\\Debug\\cmTC_536c8.ilk" /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.lib" /MACHINE:X64  /machine:x64 -v cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+            正在创建库 F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.lib 和对象 F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.exp
+          cmTC_536c8.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\cmTC_536c8.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\cmTC_536c8.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标) (1) ->
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(CudaBuildCore 目标) (1:2) ->
+        (CudaBuildCore 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+        
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]
+        
+            4 个警告
+            0 个错误
+        
+        已用时间 00:00:02.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:158 (enable_language)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:158 (enable_language)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12']
+        ignore line: []
+        ignore line: [Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_536c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n]
+        ignore line: [用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642]
+        ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        ignore line: []
+        ignore line: [生成启动时间为 2023/8/17 21:54:40。]
+        ignore line: [节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标)。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在创建目录“cmTC_536c8.dir\\Debug\\”。]
+        ignore line: [  正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\”。]
+        ignore line: [  正在创建目录“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\”。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  正在创建“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\bin" /I"F:\\YOLOV4\\CUDA\\CUDA Development\\include" /I. /FIcuda_runtime.h /c F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu ]
+        ignore line: [项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(1)正在节点 1 上生成“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\hp\\AppData\\Local\\Temp\\tmp5365e51738a54989914a1094551ff7f4.cmd"]
+        ignore line: [  "F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_536c8.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12>"F:\\YOLOV4\\CUDA\\CUDA Development\\bin\\nvcc.exe"  --use-local-env -ccbin "F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64" -x cu    -I"F:\\YOLOV4\\CUDA\\CUDA Development\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static --generate-code=arch=compute_52 code=[compute_52 sm_52] -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_536c8.dir\\Debug\\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\YOLOV4\\cmake-3.27.1-windows-x86_64\\share\\cmake-3.27\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(CudaBuildCore 个目标)的操作。]
+        ignore line: [Link:]
+        ignore line: [  F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\cmTC_536c8.exe" /INCREMENTAL /ILK:"cmTC_536c8.dir\\Debug\\cmTC_536c8.ilk" /NOLOGO /LIBPATH:"F:\\YOLOV4\\CUDA\\CUDA Development\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.lib" /MACHINE:X64  /machine:x64 -v cmTC_536c8.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [    正在创建库 F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.lib 和对象 F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5wui12/Debug/cmTC_536c8.exp]
+        ignore line: [  cmTC_536c8.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\Debug\\cmTC_536c8.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  正在删除文件“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\unsuccessfulbuild”。]
+        ignore line: [  正在对“cmTC_536c8.dir\\Debug\\cmTC_536c8.tlog\\cmTC_536c8.lastbuildstate”执行 Touch 任务。]
+        ignore line: [已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标)的操作。]
+        ignore line: []
+        ignore line: [已成功生成。]
+        ignore line: []
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标) (1) ->]
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(CudaBuildCore 目标) (1:2) ->]
+        ignore line: [(CudaBuildCore 目标) -> ]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: [  cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: [“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj”(默认目标) (1) ->]
+        ignore line: [(Link 目标) -> ]
+        ignore line: [  LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5wui12\\cmTC_536c8.vcxproj]]
+        ignore line: []
+        ignore line: [    4 个警告]
+        ignore line: [    0 个错误]
+        ignore line: []
+        ignore line: [已用时间 00:00:02.42]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:203 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-febrnh"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-febrnh"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-febrnh'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_fc9aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:44。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\cmTC_fc9aa.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fc9aa.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\Debug\\”。
+          正在创建目录“cmTC_fc9aa.dir\\Debug\\cmTC_fc9aa.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fc9aa.dir\\Debug\\cmTC_fc9aa.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc9aa.dir\\Debug\\\\" /Fd"cmTC_fc9aa.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc9aa.dir\\Debug\\\\" /Fd"cmTC_fc9aa.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\src.c"
+        F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\cmTC_fc9aa.vcxproj]
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\cmTC_fc9aa.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\cmTC_fc9aa.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-febrnh\\cmTC_fc9aa.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:203 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-eco3c1"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-eco3c1"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-eco3c1'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_407b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:44。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\cmTC_407b5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_407b5.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\Debug\\”。
+          正在创建目录“cmTC_407b5.dir\\Debug\\cmTC_407b5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_407b5.dir\\Debug\\cmTC_407b5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_407b5.dir\\Debug\\\\" /Fd"cmTC_407b5.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_407b5.dir\\Debug\\\\" /Fd"cmTC_407b5.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\CheckFunctionExists.c"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\Debug\\cmTC_407b5.exe" /INCREMENTAL /ILK:"cmTC_407b5.dir\\Debug\\cmTC_407b5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-eco3c1/Debug/cmTC_407b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-eco3c1/Debug/cmTC_407b5.lib" /MACHINE:X64  /machine:x64 cmTC_407b5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\cmTC_407b5.vcxproj]
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\cmTC_407b5.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\cmTC_407b5.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-eco3c1\\cmTC_407b5.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:203 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-joovyo"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-joovyo"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-joovyo'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3e554.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:45。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\cmTC_3e554.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3e554.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\Debug\\”。
+          正在创建目录“cmTC_3e554.dir\\Debug\\cmTC_3e554.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3e554.dir\\Debug\\cmTC_3e554.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e554.dir\\Debug\\\\" /Fd"cmTC_3e554.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e554.dir\\Debug\\\\" /Fd"cmTC_3e554.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\CheckFunctionExists.c"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\Debug\\cmTC_3e554.exe" /INCREMENTAL /ILK:"cmTC_3e554.dir\\Debug\\cmTC_3e554.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-joovyo/Debug/cmTC_3e554.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-joovyo/Debug/cmTC_3e554.lib" /MACHINE:X64  /machine:x64 cmTC_3e554.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\cmTC_3e554.vcxproj]
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\cmTC_3e554.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\cmTC_3e554.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-joovyo\\cmTC_3e554.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:242 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-qxuh9e"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-qxuh9e"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-qxuh9e'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b8105.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:46。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\cmTC_b8105.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b8105.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\Debug\\”。
+          正在创建目录“cmTC_b8105.dir\\Debug\\cmTC_b8105.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b8105.dir\\Debug\\cmTC_b8105.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b8105.dir\\Debug\\\\" /Fd"cmTC_b8105.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\OpenMPTryFlag.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPTryFlag.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b8105.dir\\Debug\\\\" /Fd"cmTC_b8105.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\OpenMPTryFlag.c"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\Debug\\cmTC_b8105.exe" /INCREMENTAL /ILK:"cmTC_b8105.dir\\Debug\\cmTC_b8105.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-qxuh9e/Debug/cmTC_b8105.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-qxuh9e/Debug/cmTC_b8105.lib" /MACHINE:X64  /machine:x64 cmTC_b8105.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_b8105.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\Debug\\cmTC_b8105.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b8105.dir\\Debug\\cmTC_b8105.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b8105.dir\\Debug\\cmTC_b8105.tlog\\cmTC_b8105.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-qxuh9e\\cmTC_b8105.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:242 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5nk1zw"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5nk1zw"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5nk1zw'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_96c74.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:47。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\cmTC_96c74.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_96c74.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\Debug\\”。
+          正在创建目录“cmTC_96c74.dir\\Debug\\cmTC_96c74.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_96c74.dir\\Debug\\cmTC_96c74.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_96c74.dir\\Debug\\\\" /Fd"cmTC_96c74.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\OpenMPTryFlag.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_96c74.dir\\Debug\\\\" /Fd"cmTC_96c74.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\OpenMPTryFlag.cpp"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\Debug\\cmTC_96c74.exe" /INCREMENTAL /ILK:"cmTC_96c74.dir\\Debug\\cmTC_96c74.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5nk1zw/Debug/cmTC_96c74.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-5nk1zw/Debug/cmTC_96c74.lib" /MACHINE:X64  /machine:x64 cmTC_96c74.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_96c74.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\Debug\\cmTC_96c74.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_96c74.dir\\Debug\\cmTC_96c74.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_96c74.dir\\Debug\\cmTC_96c74.tlog\\cmTC_96c74.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-5nk1zw\\cmTC_96c74.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.75
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:242 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-m2yfpa"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-m2yfpa"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-m2yfpa'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3c93c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:48。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\cmTC_3c93c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_3c93c.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\Debug\\”。
+          正在创建目录“cmTC_3c93c.dir\\Debug\\cmTC_3c93c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_3c93c.dir\\Debug\\cmTC_3c93c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_3c93c.dir\\Debug\\\\" /Fd"cmTC_3c93c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\OpenMPCheckVersion.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPCheckVersion.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_3c93c.dir\\Debug\\\\" /Fd"cmTC_3c93c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\OpenMPCheckVersion.c"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\Debug\\cmTC_3c93c.exe" /INCREMENTAL /ILK:"cmTC_3c93c.dir\\Debug\\cmTC_3c93c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-m2yfpa/Debug/cmTC_3c93c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-m2yfpa/Debug/cmTC_3c93c.lib" /MACHINE:X64  /machine:x64 cmTC_3c93c.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_3c93c.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\Debug\\cmTC_3c93c.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_3c93c.dir\\Debug\\cmTC_3c93c.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_3c93c.dir\\Debug\\cmTC_3c93c.tlog\\cmTC_3c93c.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-m2yfpa\\cmTC_3c93c.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.76
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "F:/YOLOV4/cmake-3.27.1-windows-x86_64/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:242 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-40w5i3"
+      binary: "F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-40w5i3"
+    cmakeVariables:
+      CMAKE_CUDA_ARCHITECTURES: "52"
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Shared"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/YOLOV4/darknet-master/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-40w5i3'
+        
+        Run Build Command(s): "F:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_047cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/8/17 21:54:49。
+        节点 1 上的项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\cmTC_047cd.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_047cd.dir\\Debug\\”。
+          正在创建目录“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\Debug\\”。
+          正在创建目录“cmTC_047cd.dir\\Debug\\cmTC_047cd.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_047cd.dir\\Debug\\cmTC_047cd.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_047cd.dir\\Debug\\\\" /Fd"cmTC_047cd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\OpenMPCheckVersion.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30151 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_047cd.dir\\Debug\\\\" /Fd"cmTC_047cd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\OpenMPCheckVersion.cpp"
+        Link:
+          F:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\Debug\\cmTC_047cd.exe" /INCREMENTAL /ILK:"cmTC_047cd.dir\\Debug\\cmTC_047cd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-40w5i3/Debug/cmTC_047cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YOLOV4/darknet-master/CMakeFiles/CMakeScratch/TryCompile-40w5i3/Debug/cmTC_047cd.lib" /MACHINE:X64  /machine:x64 cmTC_047cd.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_047cd.vcxproj -> F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\Debug\\cmTC_047cd.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_047cd.dir\\Debug\\cmTC_047cd.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_047cd.dir\\Debug\\cmTC_047cd.tlog\\cmTC_047cd.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\YOLOV4\\darknet-master\\CMakeFiles\\CMakeScratch\\TryCompile-40w5i3\\cmTC_047cd.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.78
+        
+      exitCode: 0
+...

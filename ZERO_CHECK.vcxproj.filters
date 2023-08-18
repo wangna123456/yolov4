@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\YOLOV4\darknet-master\CMakeFiles\9a6d5f9d5f9a07d614f80bca15db163e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\YOLOV4\darknet-master\DarknetConfig.cmake.in">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="F:\YOLOV4\darknet-master\cmake\Modules\FindCUDNN.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="F:\YOLOV4\darknet-master\cmake\Modules\FindPThreads4W.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="F:\YOLOV4\darknet-master\cmake\Modules\FindStb.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="F:\YOLOV4\darknet-master\src\version.h.in">
+      <Filter>Buildsystem Input Files\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C8378692-3494-3C93-8503-0FDE9CC20C04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4BD4700D-1D1E-30A4-9607-A65A6C17ECD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{E9101550-D700-3343-B74E-6214B14E6D5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\Modules">
+      <UniqueIdentifier>{4488DA9C-18F0-35FB-B686-9711ED25C914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src">
+      <UniqueIdentifier>{F5978779-47BE-3B06-9EB4-B548079539CB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
